@@ -246,16 +246,22 @@ img {
 
 .editorial-tall {
   background:
+    url("assets/images/products-hero.jpg"),
     linear-gradient(115deg, rgba(15, 11, 9, 0.56), rgba(15, 11, 9, 0.05)),
     radial-gradient(circle at 75% 24%, rgba(255, 235, 215, 0.18), transparent 18%),
     linear-gradient(90deg, #4c4036 0%, #877260 30%, #d5c2ad 72%, #8a7769 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .building-card {
   min-height: 480px;
   background:
+    url("assets/images/factory-hero.jpg"),
     linear-gradient(180deg, rgba(26, 25, 27, 0.15), rgba(26, 25, 27, 0.15)),
     linear-gradient(155deg, #c9d5e1 0%, #97a6b5 28%, #55606b 28%, #59636e 68%, #3c4249 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .editorial-overlay {
@@ -364,27 +370,39 @@ img {
 
 .media-jacket {
   background:
+    url("assets/images/products-jacket.jpg"),
     radial-gradient(circle at 62% 23%, rgba(255, 224, 198, 0.55), transparent 14%),
     linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.1)),
     linear-gradient(145deg, #a3907f 0%, #d5bfa8 34%, #161311 34%, #2b2521 73%, #8d7868 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .media-coat {
   background:
+    url("assets/images/products-coat.jpg"),
     radial-gradient(circle at 50% 26%, rgba(255, 255, 255, 0.3), transparent 10%),
     linear-gradient(180deg, #f6f3ef 0%, #d2ccc7 25%, #151313 25%, #3f3630 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .media-outerwear {
   background:
+    url("assets/images/products-outerwear.jpg"),
     radial-gradient(circle at 54% 18%, rgba(255, 221, 197, 0.5), transparent 12%),
     linear-gradient(180deg, #f6ede7 0%, #e2cabc 34%, #e8dccd 34%, #c9c4c6 68%, #a69f9e 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .media-fabric {
   background:
+    url("assets/images/products-fabric.jpg"),
     repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0 10px, rgba(0, 0, 0, 0.05) 10px 20px),
     linear-gradient(135deg, #9b8778, #6d5b4f 32%, #b29b8b 66%, #7c6554 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .split-layout {
@@ -494,22 +512,31 @@ img {
 
 .workshop-scene {
   background:
+    url("assets/images/factory-workshop.jpg"),
     linear-gradient(180deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.14)),
     repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0 22px, rgba(0, 0, 0, 0.03) 22px 44px),
     linear-gradient(145deg, #d8d9d8, #c7d0d3 26%, #8b9798 26%, #9ea7a9 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .machine-scene {
   background:
+    url("assets/images/factory-machine.jpg"),
     linear-gradient(180deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.18)),
     linear-gradient(180deg, #d0d2d5 0%, #7f878f 20%, #1a1f25 20%, #3a4147 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .warehouse-scene {
   background:
+    url("assets/images/factory-warehouse.jpg"),
     linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.08)),
     repeating-linear-gradient(90deg, rgba(255, 173, 79, 0.16) 0 34px, rgba(31, 56, 90, 0.12) 34px 68px),
     linear-gradient(135deg, #69788b 0%, #9a8a69 30%, #c6b189 60%, #586473 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .timeline {
@@ -537,8 +564,11 @@ img {
   min-height: 420px;
   border-radius: var(--radius-lg);
   background:
+    url("assets/images/contact-hero.jpg"),
     radial-gradient(circle at 22% 24%, rgba(255, 255, 255, 0.32), transparent 18%),
     linear-gradient(145deg, #241c18 0%, #604c40 34%, #c7ae8f 100%);
+  background-size: cover;
+  background-position: center;
   color: #ffffff;
   box-shadow: var(--shadow);
   padding: 36px;
